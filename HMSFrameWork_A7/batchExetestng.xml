@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="hms.Integration.DoctorSpecialization_Test"/>
+      <class name="hms.Integration.UpdateDoctorDetails"/>
+      <class name="hms.systemTestScript.Addpatient_Test"/>
+      <class name="testScripts.LoginToadminmodule"/>
+      <class name="hms.systemTestScript.CancelAppoinment_Test"/>
+      <class name="hms.systemTestScript.CreateDoctorAccount_Test"/>
+      <class name="testScripts.PatientHomePage"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

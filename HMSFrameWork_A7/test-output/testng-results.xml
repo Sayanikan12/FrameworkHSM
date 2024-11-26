@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-26T09:46:29 IST" name="Suite" finished-at="2024-11-26T09:47:49 IST" duration-ms="80191">
+    <groups>
+      <group name="regressionTest">
+        <method signature="DoctorSpecialization_Test.doctorSpecialization()[pri:0, instance:hms.Integration.DoctorSpecialization_Test@7817fd62]" name="doctorSpecialization" class="hms.Integration.DoctorSpecialization_Test"/>
+        <method signature="UpdateDoctorDetails.manageDoctor()[pri:0, instance:hms.Integration.UpdateDoctorDetails@3bd82cf5]" name="manageDoctor" class="hms.Integration.UpdateDoctorDetails"/>
+        <method signature="Addpatient_Test.addPatient()[pri:0, instance:hms.systemTestScript.Addpatient_Test@544fa968]" name="addPatient" class="hms.systemTestScript.Addpatient_Test"/>
+        <method signature="CreateDoctorAccount_Test.createDoctor_Test()[pri:0, instance:hms.systemTestScript.CreateDoctorAccount_Test@58ea606c]" name="createDoctor_Test" class="hms.systemTestScript.CreateDoctorAccount_Test"/>
+      </group> <!-- regressionTest -->
+      <group name="smokeTest">
+        <method signature="LoginToadminmodule.adminLogin()[pri:0, instance:testScripts.LoginToadminmodule@5c90e579]" name="adminLogin" class="testScripts.LoginToadminmodule"/>
+        <method signature="PatientHomePage.login()[pri:0, instance:testScripts.PatientHomePage@6f45df59]" name="login" class="testScripts.PatientHomePage"/>
+      </group> <!-- smokeTest -->
+    </groups>
+    <test started-at="2024-11-26T09:46:29 IST" name="Test1" finished-at="2024-11-26T09:47:49 IST" duration-ms="80191">
+      <class name="hms.Integration.UpdateDoctorDetails">
+        <test-method is-config="true" signature="configBC(java.lang.String)[pri:0, instance:hms.Integration.UpdateDoctorDetails@3bd82cf5]" started-at="2024-11-26T09:47:00 IST" name="configBC" finished-at="2024-11-26T09:47:01 IST" duration-ms="1173" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method signature="manageDoctor()[pri:0, instance:hms.Integration.UpdateDoctorDetails@3bd82cf5]" started-at="2024-11-26T09:47:01 IST" name="manageDoctor" finished-at="2024-11-26T09:47:32 IST" duration-ms="30778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- manageDoctor -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:hms.Integration.UpdateDoctorDetails@3bd82cf5]" started-at="2024-11-26T09:47:32 IST" name="configAC" finished-at="2024-11-26T09:47:32 IST" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:hms.Integration.UpdateDoctorDetails@3bd82cf5]" started-at="2024-11-26T09:47:32 IST" name="configAM" finished-at="2024-11-26T09:47:32 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+      </class> <!-- hms.Integration.UpdateDoctorDetails -->
+      <class name="hms.systemTestScript.Addpatient_Test">
+        <test-method is-config="true" signature="configBC(java.lang.String)[pri:0, instance:hms.systemTestScript.Addpatient_Test@544fa968]" started-at="2024-11-26T09:47:32 IST" name="configBC" finished-at="2024-11-26T09:47:33 IST" duration-ms="1154" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method signature="addPatient()[pri:0, instance:hms.systemTestScript.Addpatient_Test@544fa968]" started-at="2024-11-26T09:47:33 IST" name="addPatient" finished-at="2024-11-26T09:47:49 IST" duration-ms="15774" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addPatient -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:hms.systemTestScript.Addpatient_Test@544fa968]" started-at="2024-11-26T09:47:49 IST" name="configAM" finished-at="2024-11-26T09:47:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:hms.systemTestScript.Addpatient_Test@544fa968]" started-at="2024-11-26T09:47:49 IST" name="configAC" finished-at="2024-11-26T09:47:49 IST" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- hms.systemTestScript.Addpatient_Test -->
+      <class name="hms.Integration.DoctorSpecialization_Test">
+        <test-method is-config="true" signature="configBC(java.lang.String)[pri:0, instance:hms.Integration.DoctorSpecialization_Test@7817fd62]" started-at="2024-11-26T09:46:29 IST" name="configBC" finished-at="2024-11-26T09:46:31 IST" duration-ms="2080" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method signature="doctorSpecialization()[pri:0, instance:hms.Integration.DoctorSpecialization_Test@7817fd62]" started-at="2024-11-26T09:46:31 IST" name="doctorSpecialization" finished-at="2024-11-26T09:46:59 IST" duration-ms="28531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doctorSpecialization -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:hms.Integration.DoctorSpecialization_Test@7817fd62]" started-at="2024-11-26T09:46:59 IST" name="configAM" finished-at="2024-11-26T09:46:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:hms.Integration.DoctorSpecialization_Test@7817fd62]" started-at="2024-11-26T09:46:59 IST" name="configAC" finished-at="2024-11-26T09:47:00 IST" duration-ms="203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- hms.Integration.DoctorSpecialization_Test -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>

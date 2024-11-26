@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="2" parallel="tests">
+  <test name="Test1">
+    <classes>
+      <class name="hms.Integration.DoctorSpecialization_Test"/>
+      <class name="hms.Integration.UpdateDoctorDetails"/>
+      <class name="hms.systemTestScript.Addpatient_Test"/>
+       </classes>
+  </test> <!-- Test -->
+  
+      <test name="Test2">
+<classes>
+      <class name="testScripts.LoginToadminmodule"/>
+      <class name="hms.systemTestScript.CreateDoctorAccount_Test"/>
+      <class name="testScripts.PatientHomePage"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
